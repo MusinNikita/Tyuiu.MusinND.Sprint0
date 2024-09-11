@@ -10,7 +10,11 @@ namespace Tyuiu.MusinND.Sprint0.Task1.V0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World");
+            Console.WriteLine("Hellow World");
+            string name = "Никита";
+            int age = 22;
+            Console.WriteLine($"Здравствуйте, меня зовут {name} и мне {age} лет!");
+            Console.ReadKey();
         }
     }
 }
